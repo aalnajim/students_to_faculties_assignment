@@ -5,7 +5,7 @@ def read_students_preferences(file_path) -> List[List[str]]:
     Read preferences from a file and return a list of lists each row represents a student references.
     This function assumes that the file contains lines of comma-separated values.
     Each line represents a student's preferences.
-    If the file is not found or corrupted, it returns an empty list..
+    If the file is not found or corrupted, it returns an empty list.
     :param file_path: The path to the file containing student preferences.
     :return: A list of lists, where each inner list contains the preferences of a student in the form: 
     [student_name, student_ID, average_GPA, 1st preference, 2nd preference, ..., 14th preference].
